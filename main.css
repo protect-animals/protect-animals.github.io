@@ -1,0 +1,33 @@
+.wrapper {
+	max-width: 1080px;
+	min-width: 480px;
+	margin: 0 auto;
+	
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+body {
+	background: #FF0099;
+	background: -webkit-linear-gradient(to right, #493240, #FF0099);
+	background: linear-gradient(to right, #493240, #FF0099); 
+	color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+	flex: 1;
+}
+
+main>p {
+	white-space: pre-wrap;
+}
+
+main>img {
+	float: left;
+}
